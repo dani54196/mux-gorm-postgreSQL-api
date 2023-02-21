@@ -1,2 +1,18 @@
 ###
 http://localhost:3000
+
+### get users
+GET http://localhost:3000/users
+### get user
+GET http://localhost:3000/user
+### create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "ID": 123,
+  "username": "dani54196",
+  "email": "dani54196@gmail.com"
+}
+### delete user
+DELETE http://localhost:3000/users
