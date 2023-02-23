@@ -8,6 +8,7 @@ import (
 )
 
 var DB *gorm.DB
+// alert!!! move to .env
 var DSN = "host=localhost user=dani54196 password=example dbname=gorm port=5432"
 
 func DBConnection() {
